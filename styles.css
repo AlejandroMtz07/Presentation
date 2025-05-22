@@ -2,12 +2,12 @@ header{
     text-transform: uppercase;
 }
 
-a{
+nav >a{
     text-decoration: none;
     color: black;
     text-transform: uppercase;
 }
-a:hover{
+nav>a:hover{
     background-color: darkgray;
     border-radius: 10px;
     transition-duration: 1s;
