@@ -16,3 +16,9 @@ nav>a:hover{
     display: flex;
     flex-direction: row;
 }
+.footer-bot{
+    min-height: 10dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0,1fr);
+}

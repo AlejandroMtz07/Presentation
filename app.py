@@ -19,9 +19,6 @@ def me():
 def projects():
     return render_template("projects.html")
 
-@app.route("/home")
-def home():
-    return render_template("home.html")
 
 @app.route("/mail",methods=['POST'])
 def send_mail():
